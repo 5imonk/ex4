@@ -13,16 +13,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # set CXX flags for the compiler to be very strict
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror -Wall -pedantic")
 
-## Enable Clang sanitizer for memory warnings during Debug builds
-if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
-  set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fno-omit-frame-pointer -fsanitize=address")
-  # -fsanitize=thread")
-  # -fsanitize=memory")
-  set(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUGS} -fno-omit-frame-pointer -fsanitize=address")
-  # -fsanitize=memory")
-  # -fsanitize=thread")
-endif()
-
 # Define our library name
 set(MY_LIBRARY "Matrix")
 
@@ -42,6 +32,7 @@ endif(MY_LIBRARY_SOURCES)
 
 set(MY_EXEC_FILES "")
 list(APPEND MY_EXEC_FILES "TestMatrixMultiplication")
+
 
 foreach(MY_EXEC_FILES ${MY_EXEC_FILES})
   add_executable(${MY_EXEC_FILES} ${MY_EXEC_FILES}.cpp)
