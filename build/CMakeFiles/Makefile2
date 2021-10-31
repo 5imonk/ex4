@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/simon/Documents/Numerical Simulation and Scientific Computing/ex4"
+CMAKE_SOURCE_DIR = /home/simon/Documents/NumericalSimulationandScientificComputing/ex4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/simon/Documents/Numerical Simulation and Scientific Computing/ex4/build"
+CMAKE_BINARY_DIR = /home/simon/Documents/NumericalSimulationandScientificComputing/ex4/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -95,14 +95,14 @@ clean: CMakeFiles/Matrix.dir/clean
 CMakeFiles/TestMatrixMultiplication.dir/all: CMakeFiles/Matrix.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestMatrixMultiplication.dir/build.make CMakeFiles/TestMatrixMultiplication.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestMatrixMultiplication.dir/build.make CMakeFiles/TestMatrixMultiplication.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/simon/Documents/Numerical Simulation and Scientific Computing/ex4/build/CMakeFiles" --progress-num=3,4 "Built target TestMatrixMultiplication"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/simon/Documents/NumericalSimulationandScientificComputing/ex4/build/CMakeFiles --progress-num=3,4 "Built target TestMatrixMultiplication"
 .PHONY : CMakeFiles/TestMatrixMultiplication.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TestMatrixMultiplication.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/simon/Documents/Numerical Simulation and Scientific Computing/ex4/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/simon/Documents/NumericalSimulationandScientificComputing/ex4/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TestMatrixMultiplication.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/simon/Documents/Numerical Simulation and Scientific Computing/ex4/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/simon/Documents/NumericalSimulationandScientificComputing/ex4/build/CMakeFiles 0
 .PHONY : CMakeFiles/TestMatrixMultiplication.dir/rule
 
 # Convenience name for target.
@@ -122,14 +122,14 @@ CMakeFiles/TestMatrixMultiplication.dir/clean:
 CMakeFiles/Matrix.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix.dir/build.make CMakeFiles/Matrix.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix.dir/build.make CMakeFiles/Matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/simon/Documents/Numerical Simulation and Scientific Computing/ex4/build/CMakeFiles" --progress-num=1,2 "Built target Matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/simon/Documents/NumericalSimulationandScientificComputing/ex4/build/CMakeFiles --progress-num=1,2 "Built target Matrix"
 .PHONY : CMakeFiles/Matrix.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Matrix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/simon/Documents/Numerical Simulation and Scientific Computing/ex4/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/simon/Documents/NumericalSimulationandScientificComputing/ex4/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Matrix.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/simon/Documents/Numerical Simulation and Scientific Computing/ex4/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/simon/Documents/NumericalSimulationandScientificComputing/ex4/build/CMakeFiles 0
 .PHONY : CMakeFiles/Matrix.dir/rule
 
 # Convenience name for target.

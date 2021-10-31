@@ -10,6 +10,7 @@ int main (int argc, char *argv[]) {
   if (argc<2) {
     file_name = "runtime_analysis.txt";
     outp_file.open (getcwd_str() + "/" + file_name);
+    outp_file << "runtime in ms";
   }
   else if (argc<3) {
     int a=std::strtol(argv[1], nullptr, 0);
@@ -25,7 +26,7 @@ int main (int argc, char *argv[]) {
   std::vector<std::vector<double>> B = genMatrixB(n);
 
   outp_file << std::fixed << std::setprecision(0);
-  outp_file << "runtime in ms";
+
 
   for (int i=0; i<1; i++) {
     auto start = std::chrono::steady_clock::now();

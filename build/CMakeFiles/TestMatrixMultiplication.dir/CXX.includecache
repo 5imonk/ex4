@@ -30,7 +30,7 @@ stdio.h
 unistd.h
 -
 
-/home/simon/Documents/Numerical Simulation and Scientific Computing/ex4/TestMatrixMultiplication.cpp
+/home/simon/Documents/NumericalSimulationandScientificComputing/ex4/TestMatrixMultiplication.cpp
 Matrix.hpp
 -
 chrono
