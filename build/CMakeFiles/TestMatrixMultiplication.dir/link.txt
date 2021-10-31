@@ -1,0 +1,1 @@
+/usr/bin/c++  -Werror -Wall -pedantic -rdynamic CMakeFiles/TestMatrixMultiplication.dir/TestMatrixMultiplication.cpp.o -o TestMatrixMultiplication  -Wl,-rpath,"/home/simon/Documents/Numerical Simulation and Scientific Computing/ex4/build" libMatrix.so 

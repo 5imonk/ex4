@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Matrix.hpp
+vector
+-
+iostream
+-
+fstream
+-
+iomanip
+-
+iterator
+-
+iostream
+-
+string
+-
+sstream
+-
+string
+-
+stdio.h
+-
+unistd.h
+-
+
+/home/simon/Documents/Numerical Simulation and Scientific Computing/ex4/lib/Matrix.cpp
+Matrix.hpp
+-
+
